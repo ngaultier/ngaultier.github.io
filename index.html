@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- cette ligne permet de spécifier au navigateur qu'il s'agit bien d'une page html, cela peut résoudre des problèmes d'affichages  -->
+
+<html lang="fr">
+<!-- Cette ligne indique la langue utilisée sur la page, et permet une meilleure prise en charge par des outils comme les lecteurs d'écrans -->
+
+	<head>
+	
+    <meta charset="UTF-8"> 
+	<!-- Cette ligne spécifie le codage de caractères utilisé, UTF-8 est le plus répandu et permet d'afficher tous les caractères spéciaux, accents, etc ... -->
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Cette ligne permet à la page web de s'adapter correctement aux différentes tailles d'écran des appareils mobiles, comme les smartphones et les tablettes. ("Responsive Design") -->
+	
+    <title>CV en ligne</title>
+</head>
+<body>
+    <header>
+        <h1>Prénom NOM</h1>
+        <p>Poste recherché ou profession actuelle</p>
+    </header>
+
+    <section id="profil">
+        <h2>Profil</h2>
+        <p>Brève description de vous-même, vos compétences principales ou votre objectif professionnel.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Expérience professionnelle</h2>
+        <ul>
+            <li>
+                <h3>Poste 1</h3>
+                <p>Entreprise - Dates</p>
+                <p>Description des responsabilités et réalisations.</p>
+            </li>
+            <li>
+                <h3>Poste 2</h3>
+                <p>Entreprise - Dates</p>
+                <p>Description des responsabilités et réalisations.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="formation">
+        <h2>Formation</h2>
+        <ul>
+            <li>
+                <h3>Diplôme ou certification</h3>
+                <p>Établissement - Dates</p>
+            </li>
+            <li>
+                <h3>Diplôme ou certification</h3>
+                <p>Établissement - Dates</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Adressage IP</li>
+				<div class="bar-container">
+					<div class="bar" data-percent="60">60%</div>
+				</div>
+			<br/>
+            <li>HTML / CSS</li>
+				<div class="bar-container">
+					<div class="bar" data-percent="40">40%</div>
+				</div>
+			<br/>
+            <li>Pix</li>
+				<div class="bar-container">
+					<div class="bar" data-percent="70">70%</div>
+				</div>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : exemple@email.com</p>
+        <p>Téléphone : 0123456789</p>
+        <p>Adresse : Ville, Pays</p>
+    </section>
+</body>
+</html>
+<link rel="stylesheet" href="cv.css">
